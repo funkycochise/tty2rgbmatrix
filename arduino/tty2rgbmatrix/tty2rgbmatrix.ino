@@ -481,6 +481,10 @@ void loop() {
     else if (newCORE=="1943ua")         {Serial.println("read 1943");      strcpy(chosenGIF, "/animated/1/1943.gif"); }
     else if (newCORE=="atetris")      {Serial.println("read atetris");   strcpy(chosenGIF, "/animated/A/atetris.gif"); }
     else if (newCORE=="blktiger")     {Serial.println("read blktiger");  strcpy(chosenGIF, "/animated/B/blktiger.gif"); }
+    else if (newCORE=="blktigera")     {Serial.println("read blktiger");  strcpy(chosenGIF, "/animated/B/blktiger.gif"); }
+    else if (newCORE=="blktigerb1")     {Serial.println("read blktiger");  strcpy(chosenGIF, "/animated/B/blktiger.gif"); }
+    else if (newCORE=="blktigerb2")     {Serial.println("read blktiger");  strcpy(chosenGIF, "/animated/B/blktiger.gif"); }
+    else if (newCORE=="blktigerb3")     {Serial.println("read blktiger");  strcpy(chosenGIF, "/animated/B/blktiger.gif"); }
     else if (newCORE=="btime")        {Serial.println("read btime");     strcpy(chosenGIF, "/animated/B/btime.gif"); }
     else if (newCORE=="centiped")     {Serial.println("read centipede"); strcpy(chosenGIF, "/animated/C/centiped.gif"); }
     else if (newCORE=="centiped3")    {Serial.println("read centipede"); strcpy(chosenGIF, "/animated/C/centiped.gif"); }
