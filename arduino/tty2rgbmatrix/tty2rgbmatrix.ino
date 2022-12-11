@@ -531,9 +531,14 @@ void loop() {
     else if (newCORE=="berzerk")        {Serial.println("read berzerk");    strcpy(chosenGIF, "/static/B/berzerk.gif"); animated_flag=!animated_flag; }
     else if (newCORE=="birdiy")         {Serial.println("read birdiy");     strcpy(chosenGIF, "/static/B/birdiy.gif"); animated_flag=!animated_flag; }
     else if (newCORE=="birdtry")        {Serial.println("read birdtry");    strcpy(chosenGIF, "/static/B/birdtry.gif"); animated_flag=!animated_flag; }
-    else if (newCORE=="bosconian")      {Serial.println("read bosconian");  strcpy(chosenGIF, "/static/B/bosco.gif"); animated_flag=!animated_flag; } //no core yet but i love this game
+    else if (newCORE=="bosconian")      {Serial.println("read bosconian");  strcpy(chosenGIF, "/static/B/bosco.gif"); animated_flag=!animated_flag; }
     else if (newCORE=="mspacman")       {Serial.println("read mspacman");   strcpy(chosenGIF, "/static/M/mspacman.gif"); animated_flag=!animated_flag; }
     
+    // funkycochise & mitchbucannon
+    else if (newCORE=="rodland")        {Serial.println("read rodland");       strcpy(chosenGIF, "/animated/R/rodland.gif"); }
+    else if (newCORE=="imsorry")        {Serial.println("read imsorry");       strcpy(chosenGIF, "/animated/R/imsorry.gif"); }
+    else if (newCORE=="imsorryj")        {Serial.println("read imsorry");       strcpy(chosenGIF, "/animated/R/imsorry.gif"); }
+    else if (newCORE=="outrun")        {Serial.println("read ourun");       strcpy(chosenGIF, "/animated/R/ourun.gif"); }
 
     // -- Computer Cores --
     else if (newCORE=="AcornAtom")    ;//do something
