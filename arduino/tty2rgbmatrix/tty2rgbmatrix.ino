@@ -486,6 +486,7 @@ void loop() {
     else if (newCORE=="blktigerb2")     {Serial.println("read blktiger");  strcpy(chosenGIF, "/animated/B/blktiger.gif"); }
     else if (newCORE=="blktigerb3")     {Serial.println("read blktiger");  strcpy(chosenGIF, "/animated/B/blktiger.gif"); }
     else if (newCORE=="btime")        {Serial.println("read btime");     strcpy(chosenGIF, "/animated/B/btime.gif"); }
+    else if (newCORE=="btime2")        {Serial.println("read btime");     strcpy(chosenGIF, "/animated/B/btime.gif"); }
     else if (newCORE=="centiped")     {Serial.println("read centipede"); strcpy(chosenGIF, "/animated/C/centiped.gif"); }
     else if (newCORE=="centiped3")    {Serial.println("read centipede"); strcpy(chosenGIF, "/animated/C/centiped.gif"); }
     else if (newCORE=="defender")     {Serial.println("read defender");  strcpy(chosenGIF, "/animated/D/defender.gif"); }
