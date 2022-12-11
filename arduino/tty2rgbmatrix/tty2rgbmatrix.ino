@@ -500,6 +500,7 @@ void loop() {
     else if (newCORE=="aliensyn")     {Serial.println("read aliensyn");    strcpy(chosenGIF, "/animated/A/aliensyn.gif"); }
     else if (newCORE=="avsp")         {Serial.println("read avsp");        strcpy(chosenGIF, "/animated/A/avsp.gif"); }
     else if (newCORE=="altbeast")     {Serial.println("read altbeast");    strcpy(chosenGIF, "/animated/A/altbeast.gif"); }
+    else if (newCORE=="altbeastj")     {Serial.println("read altbeast");    strcpy(chosenGIF, "/animated/A/altbeast.gif"); }
     else if (newCORE=="ddragon")      {Serial.println("read ddragon");     strcpy(chosenGIF, "/animated/D/ddragon.gif"); }
     else if (newCORE=="dstlk")        {Serial.println("read dstlk");       strcpy(chosenGIF, "/animated/D/dstlk.gif"); }
     else if (newCORE=="pacman")       {Serial.println("read pacman");      strcpy(chosenGIF, "/animated/P/pacman.gif"); }
