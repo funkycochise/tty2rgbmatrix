@@ -497,6 +497,9 @@ void loop() {
     else if (newCORE=="arkanoid")     {Serial.println("read arkanoid");  strcpy(chosenGIF, "/animated/A/arkanoid.gif"); }
     else if (newCORE=="arkanoidj")     {Serial.println("read arkanoid");  strcpy(chosenGIF, "/animated/A/arkanoid.gif"); }
     else if (newCORE=="arkanoid2")     {Serial.println("read arkanoid");  strcpy(chosenGIF, "/animated/A/arkanoid.gif"); }
+    else if (newCORE=="arkanoiduo")     {Serial.println("read arkanoid");  strcpy(chosenGIF, "/animated/A/arkanoid.gif"); }
+    else if (newCORE=="arkanoiduo")     {Serial.println("read arkanoid");  strcpy(chosenGIF, "/animated/A/arkanoid.gif"); }
+    else if (newCORE=="arkretrn")     {Serial.println("read arkanoid");  strcpy(chosenGIF, "/animated/A/arkanoid.gif"); }
 
     // -- Arcade Cores with images by eLLuigi
     else if (newCORE=="aliensyn")     {Serial.println("read aliensyn");    strcpy(chosenGIF, "/animated/A/aliensyn.gif"); }
