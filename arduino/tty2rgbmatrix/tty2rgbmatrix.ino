@@ -495,6 +495,8 @@ void loop() {
     else if (newCORE=="tapper")       {Serial.println("read tapper");    strcpy(chosenGIF, "/animated/T/tapper.gif"); }
     else if (newCORE=="zaxxon")       {Serial.println("read zaxxon");    strcpy(chosenGIF, "/animated/Z/zaxxon.gif"); }
     else if (newCORE=="arkanoid")     {Serial.println("read arkanoid");  strcpy(chosenGIF, "/animated/A/arkanoid.gif"); }
+    else if (newCORE=="arkanoidj")     {Serial.println("read arkanoid");  strcpy(chosenGIF, "/animated/A/arkanoid.gif"); }
+    else if (newCORE=="arkanoid2")     {Serial.println("read arkanoid");  strcpy(chosenGIF, "/animated/A/arkanoid.gif"); }
 
     // -- Arcade Cores with images by eLLuigi
     else if (newCORE=="aliensyn")     {Serial.println("read aliensyn");    strcpy(chosenGIF, "/animated/A/aliensyn.gif"); }
@@ -503,7 +505,6 @@ void loop() {
     else if (newCORE=="altbeastj")     {Serial.println("read altbeast");    strcpy(chosenGIF, "/animated/A/altbeast.gif"); }
     else if (newCORE=="arkanoid")     {Serial.println("read altbeast");    strcpy(chosenGIF, "/animated/A/altbeast.gif"); }
     else if (newCORE=="arkanoidj")     {Serial.println("read altbeast");    strcpy(chosenGIF, "/animated/A/altbeast.gif"); }
-    else if (newCORE=="ddragon")      {Serial.println("read arkanoid");     strcpy(chosenGIF, "/animated/D/arkanoid.gif"); }
     else if (newCORE=="dstlk")        {Serial.println("read dstlk");       strcpy(chosenGIF, "/animated/D/dstlk.gif"); }
     else if (newCORE=="pacman")       {Serial.println("read pacman");      strcpy(chosenGIF, "/animated/P/pacman.gif"); }
     else if (newCORE=="pengo")        {Serial.println("read pengo");       strcpy(chosenGIF, "/animated/P/pengo.gif"); }
