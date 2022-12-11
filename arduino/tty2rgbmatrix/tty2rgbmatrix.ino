@@ -461,6 +461,15 @@ void loop() {
         
     // -- Arcade Cores with images by h3llb3nt--
     else if (newCORE=="1942")         {Serial.println("read 1942");      strcpy(chosenGIF, "/animated/1/1942.gif"); }
+    else if (newCORE=="1942_1")         {Serial.println("read 1942");      strcpy(chosenGIF, "/animated/1/1942.gif"); }
+    else if (newCORE=="1942a")         {Serial.println("read 1942");      strcpy(chosenGIF, "/animated/1/1942.gif"); }
+    else if (newCORE=="1942b")         {Serial.println("read 1942");      strcpy(chosenGIF, "/animated/1/1942.gif"); }
+    else if (newCORE=="1942c64")         {Serial.println("read 1942");      strcpy(chosenGIF, "/animated/1/1942.gif"); }
+    else if (newCORE=="1942fpa")         {Serial.println("read 1942");      strcpy(chosenGIF, "/animated/1/1942.gif"); }
+    else if (newCORE=="1942GXC64")         {Serial.println("read 1942");      strcpy(chosenGIF, "/animated/1/1942.gif"); }
+    else if (newCORE=="1942h")         {Serial.println("read 1942");      strcpy(chosenGIF, "/animated/1/1942.gif"); }
+    else if (newCORE=="1942HC64")         {Serial.println("read 1942");      strcpy(chosenGIF, "/animated/1/1942.gif"); }
+    else if (newCORE=="1942w")         {Serial.println("read 1942");      strcpy(chosenGIF, "/animated/1/1942.gif"); }
     else if (newCORE=="atetris")      {Serial.println("read atetris");   strcpy(chosenGIF, "/animated/A/atetris.gif"); }
     else if (newCORE=="blktiger")     {Serial.println("read blktiger");  strcpy(chosenGIF, "/animated/B/blktiger.gif"); }
     else if (newCORE=="btime")        {Serial.println("read btime");     strcpy(chosenGIF, "/animated/B/btime.gif"); }
